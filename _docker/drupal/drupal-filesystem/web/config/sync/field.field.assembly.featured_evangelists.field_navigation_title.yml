@@ -1,0 +1,19 @@
+uuid: 43cefdc9-0c53-41f6-be5f-c79d4a04752d
+langcode: en
+status: true
+dependencies:
+  config:
+    - assembly.assembly_type.featured_evangelists
+    - field.storage.assembly.field_navigation_title
+id: assembly.featured_evangelists.field_navigation_title
+field_name: field_navigation_title
+entity_type: assembly
+bundle: featured_evangelists
+label: 'Navigation Title'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

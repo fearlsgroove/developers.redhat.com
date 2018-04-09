@@ -7,6 +7,7 @@ dependencies:
     - field.field.assembly.dynamic_content_feed.field_category_filter
     - field.field.assembly.dynamic_content_feed.field_cta_link
     - field.field.assembly.dynamic_content_feed.field_drupal_term_filter
+    - field.field.assembly.dynamic_content_feed.field_navigation_title
     - field.field.assembly.dynamic_content_feed.field_number_of_posts
   module:
     - fences
@@ -53,5 +54,6 @@ content:
 hidden:
   field_category_filter: true
   field_drupal_term_filter: true
+  field_navigation_title: true
   field_number_of_posts: true
   user_id: true

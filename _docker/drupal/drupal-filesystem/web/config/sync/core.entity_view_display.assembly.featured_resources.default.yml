@@ -5,6 +5,7 @@ dependencies:
   config:
     - assembly.assembly_type.featured_resources
     - field.field.assembly.featured_resources.field_links
+    - field.field.assembly.featured_resources.field_navigation_title
     - field.field.assembly.featured_resources.field_resources
   module:
     - fences
@@ -65,4 +66,5 @@ content:
         fences_label_tag: none
         fences_label_classes: ''
 hidden:
+  field_navigation_title: true
   user_id: true

@@ -1,14 +1,14 @@
-uuid: d5613b1c-0822-4c09-853e-5398b712d65b
+uuid: 8d293892-7131-4736-a78d-28fc59968431
 langcode: en
 status: true
 dependencies:
   config:
-    - assembly.assembly_type.content_with_image
+    - assembly.assembly_type.featured_resources
     - field.storage.assembly.field_navigation_title
-id: assembly.content_with_image.field_navigation_title
+id: assembly.featured_resources.field_navigation_title
 field_name: field_navigation_title
 entity_type: assembly
-bundle: content_with_image
+bundle: featured_resources
 label: 'Navigation Title'
 description: 'If populated, and an on-page navigation assembly is included on this content, this item will be included in the on page navigation.'
 required: false

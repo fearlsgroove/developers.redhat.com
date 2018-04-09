@@ -8,6 +8,7 @@ dependencies:
     - field.field.assembly.dynamic_content_list.field_cta_link
     - field.field.assembly.dynamic_content_list.field_drupal_term_filter
     - field.field.assembly.dynamic_content_list.field_links
+    - field.field.assembly.dynamic_content_list.field_navigation_title
   module:
     - fences
     - link
@@ -54,6 +55,14 @@ content:
         fences_field_item_classes: ''
         fences_label_tag: none
         fences_label_classes: ''
+  field_navigation_title:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
   name:
     type: string
     weight: 0

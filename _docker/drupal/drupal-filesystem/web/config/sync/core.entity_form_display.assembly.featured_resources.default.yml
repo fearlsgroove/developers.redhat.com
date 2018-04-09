@@ -5,6 +5,7 @@ dependencies:
   config:
     - assembly.assembly_type.featured_resources
     - field.field.assembly.featured_resources.field_links
+    - field.field.assembly.featured_resources.field_navigation_title
     - field.field.assembly.featured_resources.field_resources
   module:
     - link
@@ -20,6 +21,14 @@ content:
       placeholder_title: ''
     third_party_settings: {  }
     type: link_default
+    region: content
+  field_navigation_title:
+    weight: 26
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
   field_resources:
     weight: 3

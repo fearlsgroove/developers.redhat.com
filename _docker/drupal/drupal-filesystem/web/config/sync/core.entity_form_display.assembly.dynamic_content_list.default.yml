@@ -8,6 +8,7 @@ dependencies:
     - field.field.assembly.dynamic_content_list.field_cta_link
     - field.field.assembly.dynamic_content_list.field_drupal_term_filter
     - field.field.assembly.dynamic_content_list.field_links
+    - field.field.assembly.dynamic_content_list.field_navigation_title
   module:
     - link
     - rhd_assemblies
@@ -43,6 +44,14 @@ content:
       placeholder_title: ''
     third_party_settings: {  }
     type: link_default
+    region: content
+  field_navigation_title:
+    weight: 28
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
   name:
     type: string_textfield
